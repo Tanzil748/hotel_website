@@ -81,6 +81,21 @@ p {
   clear: both;
 }
 
+.l-heading {
+  font-size: 40px;
+}
+
+/* Padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 10px 0;
+}
+.py-3 {
+  padding: 10px 0;
+}
+
 /* navbar */
 #navbar {
   background: #333;
@@ -183,4 +198,51 @@ p {
   background: #444;
   color: white;
   padding: 20px;
+}
+
+/* About info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+#about-info .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+  height: 600px;
+  background: url(img/test-bg.jpg) no-repeat center center/cover;
+  padding-top: 100px;
+}
+
+#testimonials .testimonial {
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  opacity: 0.9;
+}
+
+#testimonials .testimonial img {
+  width: 100px;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+#testimonials h2 {
+  color: white;
+  text-align: center;
+  padding-bottom: 40px;
 }
